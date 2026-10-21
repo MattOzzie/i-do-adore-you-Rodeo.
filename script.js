@@ -9,7 +9,7 @@ photoCards.forEach((card) => {
 })
 
 //PEMUTAR MUSIK
-const music = new Audio("audio/Here With Me.mp3");
+const music = new Audio("Here With Me.mp3");
 music.loop = true;
 
 const playButton = document.querySelector(".play-button");
