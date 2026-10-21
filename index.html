@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>One Page, One Person</title>
+
+    <link rel="icon" type="image/png" href="logo.jpg">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <p class="eyebrow">A LITTLE CORNER OF THE WORLD</p>
+
+        <h1>for you, always.</h1>
+
+        <p class="intro">
+            A little collection of moments,
+            thoughts, and things I wanted you to know.
+        </p>
+
+        <a href="#gallery" class="scroll-link">↓</a>
+    </header>
+
+    <!-- VINYYL PLAYER -->
+    <section class="music-section" id="music"> 
+        <p class="eyebrow"> JUST A SONG FOR YOU</p>
+        <h2>stay with me, always.</h2>
+        <p class="music-subtitle">
+            there's a song that reminds me of you.
+        </p>
+        
+        <div class="vinyl-player">
+            <div class="vinyl" id="vinyl">
+                <div class="vinyl-label">
+                 <img src="images/vinyl-photo.png" alt="Foto kami berdua">
+            </div>
+            </div>
+            
+            <p class="track-title">Here With Me</p>
+            <p class="track-artist">d4vd</p>
+
+            <button class="play-button" id="play-button" type="button">
+                <span id="play-icon">▶</span>
+                <span id="play-label">play our song</span>
+            </button>
+
+            <p class="music-caption">
+                this song feels like it was written just for you, Rodeo.
+            </p>
+        </div>
+    </section>
+
+    <main id="gallery" class="gallery-section">
+        
+        <div class="section-heading">
+            <p class="eyebrow">LITTLE MOMENTS</p>
+            <h2>A thousand little things that we did.</h2>
+            <p>Some moments deserve to be kept.</p>
+        </div>
+
+        
+<div class="gallery">
+
+    <button class="photo-card" type="button">
+        <span class="photo-inner">
+
+            <!-- SISI DEPAN -->
+            <span class="photo-front">
+                <img src="images/photo1.jpg" alt="A moment">
+                <span class="photo-caption">you.</span>
+            </span>
+
+            <!-- SISI BELAKANG -->
+            <span class="photo-back">
+                <span class="back-label">A LITTLE CONFESSION</span>
+                <span class="back-title">you.</span>
+                <span class="back-message">
+                    I never expected someone to make my days
+                    feel so different in such a short time.
+                    Our paths simply crossed, and somehow, 
+                    things started feeling a little brighter because of you
+                </span>
+                <span class="back-footer">with a little warmth.</span>
+            </span>
+
+        </span>
+    </button>
+
+    <button class="photo-card" type="button">
+        <span class="photo-inner">
+
+            <span class="photo-front">
+                <img src="images/photo2.jpg" alt="Little things">
+                <span class="photo-caption">little things.</span>
+            </span>
+
+            <span class="photo-back">
+                <span class="back-label">HOW IT CAN BE?</span>
+                <span class="back-title">little things.</span>
+                <span class="back-message">
+                    Maybe it's the little things you do 
+                    that stay with me the most.
+                    These moments, this time, and us.
+                    All I can do is hope that we can 
+                    always be there for each other.
+                </span>
+                <span class="back-footer">i'll keep this moments.</span>
+            </span>
+
+        </span>
+    </button>
+
+    <button class="photo-card" type="button">
+        <span class="photo-inner">
+
+            <span class="photo-front">
+                <img src="images/photo3.png" alt="Somewhere">
+                <span class="photo-caption">somewhere.</span>
+            </span>
+
+            <span class="photo-back">
+                <span class="back-label">A SAFE PLACE</span>
+                <span class="back-title">somewhere.</span>
+                <span class="back-message">
+                    Wherever life takes you, I hope you find 
+                    little reasons to smile, even on the days 
+                    when things feel hard.
+                </span>
+                <span class="back-footer">wherever life takes you.</span>
+            </span>
+
+        </span>
+    </button>
+
+    <button class="photo-card" type="button">
+        <span class="photo-inner">
+
+            <span class="photo-front">
+                <img src="images/photo4.png" alt="One more thing">
+                <span class="photo-caption">one more thing.</span>
+            </span>
+
+            <span class="photo-back">
+                <span class="back-label">THANKS, RODEO</span>
+                <span class="back-title">one more thing.</span>
+                <span class="back-message">
+                    Out of all the moments in this world,
+                    I'm glad our paths crossed when they did.
+                    Whenever the world feels heavy,
+                    you can always lean on me.
+                    I'll be right here beside you,
+                    ready to listen and stay,
+                    reminding you that you don't have
+                    to go through everything alone.
+                    You have me, now and always.
+                </span>
+                <span class="back-footer">you can always come home to me.</span>
+            </span>
+
+        </span>
+    </button>
+
+</div>
+
+    </main>
+
+    <footer>
+        <p>One person. a little closer, every day.</p>
+    </footer>
+
+    <div class="popup" id="popup" aria-hidden="true">
+        <div class="popup-content" role="dialog"
+            aria-modal="true" aria-labelledby="popup-title">
+
+            <button class="close-popup" aria-label="Close">&times;</button>
+
+            <img id="popup-image" src="" alt="Selected moment">
+
+            <div class="popup-message">
+                <p class="eyebrow">A LITTLE NOTE</p>
+                <h2 id="popup-title"></h2>
+                <p id="popup-text"></p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
