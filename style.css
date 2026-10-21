@@ -158,35 +158,38 @@ img {
     transform: rotate(5deg) translateY(24px)
 }
 
+
+/* ANIMASI POLAROID NAIK-TURUN */
+
 @keyframes polaroid-float {
     0%, 100% {
         translate: 0 0;
     }
 
     50% {
-        translate: 0 -5px;
+        translate: 0 -8px;
     }
 }
-@media (hover: hover) and (prefers-reduced-motion: no-preference) {
 
-    .photo-card:nth-child(1) {
-        animation: polaroid-float 5s ease-in-out infinite;
-    }
+.photo-card:nth-child(1) {
+    animation: polaroid-float 4s ease-in-out infinite;
+}
 
-    .photo-card:nth-child(2) {
-        animation: polaroid-float 6s ease-in-out infinite;
-        animation-delay: -1.5s;
-    }
+.photo-card:nth-child(2) {
+    animation: polaroid-float 5s ease-in-out infinite;
+    animation-delay: -1s;
+}
 
-    .photo-card:nth-child(3) {
-        animation: polaroid-float 5.5s ease-in-out infinite;
-        animation-delay: -2.5s;
-    }
+.photo-card:nth-child(3) {
+    animation: polaroid-float 4.5s ease-in-out infinite;
+    animation-delay: -2s;
+}
 
-    .photo-card:nth-child(4) {
-        animation: polaroid-float 6.5s ease-in-out infinite;
-        animation-delay: -3s;
-    }
+.photo-card:nth-child(4) {
+    animation: polaroid-float 5.5s ease-in-out infinite;
+    animation-delay: -1.5s;
+}
+
 }
 
 .photo-card:hover {
